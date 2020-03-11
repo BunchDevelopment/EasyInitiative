@@ -5,7 +5,7 @@ const Header = () => {
         <div className="App-header">
             <h1>Easy Initiative</h1>
             <h1>logo</h1>
-            <p>More fun, less hastle</p>
+            <p>Helping to achieve critical fun</p>
 
         </div>
     )
