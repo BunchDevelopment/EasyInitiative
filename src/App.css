@@ -1,5 +1,13 @@
+:root {
+    --main-bg-color: #040f16;
+    --main-font-color: #040f16;
+    --secondary-font-color: #01BAEF;
+  }
+
 .App {
   text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .App-logo {
@@ -15,21 +23,21 @@
 
 #body{
     min-height: 75vh;
+    background-color: #fbfbff;
+    color: #040f16;
 }
 
 .App-header {
     align-items: center;
     align-items: flex-end;
-    background-color: #433e3f;
-    color: #c0b7b1;
+    background-color: var(--main-bg-color);
+    color: var(--secondary-font-color);
     display: flex;
     flex-direction: row;
     font-size: calc(10px + 2vmin);
     justify-content: space-between;
     margin: 0;
     min-height: 15vh;
-    position: fixed;
-    top: 0;
     width: 100%;
 }
 
@@ -42,25 +50,12 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #433e3f;
+    background-color: var(--main-bg-color);
     min-height: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: #c0b7b1;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    color: var(--secondary-font-color);
 }
