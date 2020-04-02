@@ -1,0 +1,8 @@
+#createBattle{
+    width: 10em;
+    height: 2em;
+    border-radius: 2px;
+    background-color: var(--main-bg-color);
+    color: var(--secondary-font-color);
+    font-size: 1.2em;
+}

@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
+# Personal note, this is used for SEO so do after routes are setup
 User-agent: *
 Disallow:
