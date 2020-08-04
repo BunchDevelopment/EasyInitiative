@@ -14,7 +14,7 @@ const CreateBattleButton = () => {
                 <>
                     <Button.Primary buttonSize="small" id="createBattleButton" onClick={toggle}>Create a battle</Button.Primary>
                     <Modal on={on} toggle={toggle}>
-                        <CreateBattleModal/>
+                        <CreateBattleModal modalTitle='Create New Battle'/>
                     </Modal>
                 </>
                 )}
