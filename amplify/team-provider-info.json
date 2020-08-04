@@ -1,0 +1,22 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-easyinitiative-dev-152641-authRole",
+            "UnauthRoleArn": "arn:aws:iam::550909547626:role/amplify-easyinitiative-dev-152641-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::550909547626:role/amplify-easyinitiative-dev-152641-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-easyinitiative-dev-152641-deployment",
+            "UnauthRoleName": "amplify-easyinitiative-dev-152641-unauthRole",
+            "StackName": "amplify-easyinitiative-dev-152641",
+            "StackId": "arn:aws:cloudformation:us-east-1:550909547626:stack/amplify-easyinitiative-dev-152641/d07bcb30-d690-11ea-9338-0e58925d1f8e",
+            "AmplifyAppId": "d2mtemxiwc7f06"
+        },
+        "categories": {
+            "auth": {
+                "easyinitiativea477179b": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"283372499634748\",\"client_secret\":\"8262cec39a8f0151dc9c84565cdd1d62\"},{\"ProviderName\":\"Google\",\"client_id\":\"228690040795-frl5h34a0asgqfbg1e6ra8n9guaevs51.apps.googleusercontent.com\",\"client_secret\":\"Ij8O3Jt0sCVQLMzMSD6LtrMP\"}]"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"easyinitiativea477179b": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
